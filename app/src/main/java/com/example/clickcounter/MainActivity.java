@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 szamlalo++;
-                output.setText(szamlalo);
+                output.setText(String.valueOf(szamlalo));
             }
         });
 
@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View view) {
                 szamlalo--;
-                output.setText(szamlalo);
+                output.setText(String.valueOf(szamlalo));
             }
         });
 
